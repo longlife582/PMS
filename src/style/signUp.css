@@ -1,0 +1,73 @@
+.authForm {
+    width: 35%;
+    padding: 1rem 2rem;
+    background: white;
+    margin-top: 5rem;
+    min-height: 50vh;
+    background: #ffffff;
+    margin-bottom: 70px;
+    box-shadow: -2px -9px 23px 11px rgba(4, 4, 4, 0.642);
+    -webkit-box-shadow: -2px -9px 33px 11px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: -2px -9px 33px 11px rgba(0, 0, 0, 0.06);
+    margin-right: -30px;
+  }
+  
+  .logo {
+    position: absolute;
+    padding: 10px 2.5rem;
+  }
+  
+  .message {
+    color: red;
+    font-size: 17px;
+  }
+  
+  .logo {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 1.2rem;
+    color: #4072b3;
+  }
+  
+  .signUpdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .formControl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .formControl input,
+  .formControl input:focus {
+    /* padding: 0.9rem 0.3rem 0.9rem 1rem; */
+    height: 0.5rem;
+    background: #f4f4f4;
+    border: 1px solid #ced7e3;
+    border-radius: 4px;
+    outline: none;
+  }
+  .authForm button {
+    padding: 0.7rem 0.7rem;
+    background: #12171e;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #ffffff;
+    text-align: center;
+    width: 40%;
+    /* margin-top: 1rem; */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #f5f2f1; */
+    overflow-x: hidden;
+  }
+  
