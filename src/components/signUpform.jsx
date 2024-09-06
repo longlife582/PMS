@@ -1,7 +1,17 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import '../style/model.css'
+import { useState } from 'react';
 
 const SignUpForm = () => {
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    const toggleModal = () => {
+        setIsModalVisible(!isModalVisible);
+      };
+
+
+
     return ( 
         <>
             <div className="logo-div">
@@ -37,9 +47,11 @@ const SignUpForm = () => {
                         <input type="password" id="confirmPassword" />
                     </div>
                     <p className="message"></p>
-                    <button type="submit" className="submit-button">Create Account</button>
+                    <button className="submit-button" >Create Account</button>
                     <h6>Already have an account? <Link to="/login">Login</Link></h6>
                 </form>
+                <p className={ `modal-overlay ${isModalVisible ? 'visible' : ''}`} >testing popup</p>
+                <button onClick={toggleModal}>dfg</button>
             </div>
         </>
     );

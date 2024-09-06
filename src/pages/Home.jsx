@@ -1,6 +1,17 @@
+import Sidebar from "../components/sidleBar";
+import MainHome from "../components/homeConent";
+
+
+
 const Home = () => {
     return (  
-        <div>this is home pages</div>
+    <><Sidebar />
+    <MainHome />
+    
+    
+    
+    </> 
+       
     );
 }
  
